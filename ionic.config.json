@@ -1,0 +1,7 @@
+{
+  "name": "capacitor-heart-rate-monitor",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
