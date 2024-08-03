@@ -45,5 +45,7 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
+  <key>NSBluetoothAlwaysUsageDescription</key>
+  <string>The app needs access to Bluetooth peripherals to communicate with Bluetooth devices.</string>
 </dict>
 </plist>
