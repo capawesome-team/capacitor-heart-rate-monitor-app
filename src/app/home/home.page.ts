@@ -1,4 +1,5 @@
 import { Component, OnInit, signal } from '@angular/core';
+import { Capacitor } from '@capacitor/core';
 import { BluetoothLowEnergy } from '@capawesome-team/capacitor-bluetooth-low-energy';
 import { IonHeader, IonToolbar, IonTitle, IonContent, IonButton } from '@ionic/angular/standalone';
 
@@ -15,9 +16,12 @@ export class HomePage implements OnInit {
   constructor() {}
 
   public async ngOnInit() {
-    await BluetoothLowEnergy.removeAllListeners();
     // 1. Initialize the Bluetooth Low Energy plugin
-    await BluetoothLowEnergy.initialize();
+    if (Capacitor.getPlatform() === 'ios') {
+      await BluetoothLowEnergy.initialize();
+    } else {
+      await BluetoothLowEnergy.requestPermissions();
+    }
     // 2. Add a listener for the `deviceScanned` event
     await BluetoothLowEnergy.addListener('deviceScanned', async (event) => {
       if (event.name?.startsWith('Polar H9')) {
