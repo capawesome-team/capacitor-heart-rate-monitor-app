@@ -1,16 +1,16 @@
 PODS:
-  - Capacitor (6.1.1):
+  - Capacitor (7.0.1):
     - CapacitorCordova
-  - CapacitorApp (6.0.0):
+  - CapacitorApp (7.0.0):
     - Capacitor
-  - CapacitorCordova (6.1.1)
-  - CapacitorHaptics (6.0.0):
+  - CapacitorCordova (7.0.1)
+  - CapacitorHaptics (7.0.0):
     - Capacitor
-  - CapacitorKeyboard (6.0.1):
+  - CapacitorKeyboard (7.0.0):
     - Capacitor
-  - CapacitorStatusBar (6.0.0):
+  - CapacitorStatusBar (7.0.0):
     - Capacitor
-  - CapawesomeTeamCapacitorBluetoothLowEnergy (6.0.0):
+  - CapawesomeTeamCapacitorBluetoothLowEnergy (7.0.3-dev.0fc130a.1741271048):
     - Capacitor
 
 DEPENDENCIES:
@@ -39,13 +39,13 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@capawesome-team/capacitor-bluetooth-low-energy"
 
 SPEC CHECKSUMS:
-  Capacitor: 7b38922425a542e0b5936c8f72ea89d876dd4df1
-  CapacitorApp: 30145f2ea2311e4f3744472119ec87d2ddf4c0a7
-  CapacitorCordova: 8f2cc8d8d3619c566e9418fe8772064a94266106
-  CapacitorHaptics: 0cea833e6a8bf489dd6acaaebf6d953b90086c59
-  CapacitorKeyboard: f38d730356be5569d72eb87ad9c8166947728c36
-  CapacitorStatusBar: 129c68650d3f950e080e8e7e03d69c3b361dbe52
-  CapawesomeTeamCapacitorBluetoothLowEnergy: 4961bffcb438259a72cf36375d35cb769eeb4b79
+  Capacitor: de199cba6c8b20995428ad0b7cb0bc6ca625ffd4
+  CapacitorApp: 9cb31064a6c6bb2b1438583733a7bf45557fc1da
+  CapacitorCordova: 63d476958d5022d76f197031e8b7ea3519988c64
+  CapacitorHaptics: 7be406a91e4eb87287f321c6c68e1709d6837b3a
+  CapacitorKeyboard: 4db71e694e7afb5d7c0be09b05495c19f7d6c914
+  CapacitorStatusBar: a8c4c83ed2e973bdafb979e80e4b00d027832cb7
+  CapawesomeTeamCapacitorBluetoothLowEnergy: 8e6c1f2fcdcd6edd5947bd359ad6fccf56e3a56e
 
 PODFILE CHECKSUM: c32f4702ea6cb43deebfb49d3dd7c087eaf137f3
 
