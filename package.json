@@ -28,7 +28,7 @@
     "@capacitor/ios": "^7.0.0",
     "@capacitor/keyboard": "^7.0.0",
     "@capacitor/status-bar": "^7.0.0",
-    "@capawesome-team/capacitor-bluetooth-low-energy": "7.0.3-dev.0fc130a.1741271048",
+    "@capawesome-team/capacitor-bluetooth-low-energy": "7.2.0",
     "@ionic/angular": "^8.0.0",
     "ionicons": "^7.2.1",
     "rxjs": "~7.8.0",

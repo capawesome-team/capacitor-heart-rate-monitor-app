@@ -10,7 +10,7 @@ PODS:
     - Capacitor
   - CapacitorStatusBar (7.0.0):
     - Capacitor
-  - CapawesomeTeamCapacitorBluetoothLowEnergy (7.0.3-dev.0fc130a.1741271048):
+  - CapawesomeTeamCapacitorBluetoothLowEnergy (7.2.0):
     - Capacitor
 
 DEPENDENCIES:
@@ -45,7 +45,7 @@ SPEC CHECKSUMS:
   CapacitorHaptics: 7be406a91e4eb87287f321c6c68e1709d6837b3a
   CapacitorKeyboard: 4db71e694e7afb5d7c0be09b05495c19f7d6c914
   CapacitorStatusBar: a8c4c83ed2e973bdafb979e80e4b00d027832cb7
-  CapawesomeTeamCapacitorBluetoothLowEnergy: 8e6c1f2fcdcd6edd5947bd359ad6fccf56e3a56e
+  CapawesomeTeamCapacitorBluetoothLowEnergy: dbb2b3fb8ec750c4173562a512728228425423dd
 
 PODFILE CHECKSUM: c32f4702ea6cb43deebfb49d3dd7c087eaf137f3
 

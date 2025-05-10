@@ -8,7 +8,7 @@ import { IonHeader, IonToolbar, IonTitle, IonContent, IonButton } from '@ionic/a
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
   standalone: true,
-  imports: [IonHeader, IonToolbar, IonTitle, IonContent, IonButton],
+  imports: [IonHeader, IonToolbar, IonTitle, IonContent],
 })
 export class HomePage implements OnInit {
   public heartRate = signal<undefined | number>(undefined);
