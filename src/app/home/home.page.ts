@@ -1,7 +1,7 @@
 import { Component, OnInit, signal } from '@angular/core';
 import { Capacitor } from '@capacitor/core';
 import { BluetoothLowEnergy } from '@capawesome-team/capacitor-bluetooth-low-energy';
-import { IonHeader, IonToolbar, IonTitle, IonContent, IonButton } from '@ionic/angular/standalone';
+import { IonHeader, IonToolbar, IonTitle, IonContent, IonButton } from '@ionic/angular';
 
 @Component({
   selector: 'app-home',

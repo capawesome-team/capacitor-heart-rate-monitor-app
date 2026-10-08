@@ -29,8 +29,8 @@
     "@capacitor/keyboard": "^8.0.6",
     "@capacitor/status-bar": "^8.0.4",
     "@capawesome-team/capacitor-bluetooth-low-energy": "8.3.2",
-    "@ionic/angular": "^8.0.0",
-    "ionicons": "^7.2.1",
+    "@ionic/angular": "^9.0.6",
+    "ionicons": "^8.1.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.1"
